@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update && apt upgrade -y 
-declare -a packages=("p7zip" "audacity" "firefox" "gimp" "handbrake" "inkscape" "krita" "libreoffice" "tux-paint" "vlc" "chromium-browser")
+declare -a packages=("p7zip" "audacity" "firefox" "gimp" "handbrake" "inkscape" "krita" "libreoffice" "tux-paint" "vlc")
 for package in ${packages[@]}; do
     echo "******************" 
     echo $package
@@ -13,5 +13,5 @@ echo zoom
 echo "******************"
 apt install --fix-broken /tmp/zoom_amd64.deb -y
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
+apt install /tmp/google-chrome-stable_current_amd64.deb
