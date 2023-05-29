@@ -14,4 +14,6 @@ echo "******************"
 apt install --fix-broken /tmp/zoom_amd64.deb -y
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
-apt install /tmp/google-chrome-stable_current_amd64.deb
+apt install /tmp/google-chrome-stable_current_amd64.deb -y
+wget https://novabench.com/files/novabench-x64.deb  -O /tmp/novabench-x64.deb
+apt install /tmp/novabench-x64.deb -y
