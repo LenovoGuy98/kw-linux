@@ -21,7 +21,9 @@ apt install /tmp/novabench-x64.deb -y
 #KindWorks Stuff
 mkdir ~/kindworks
 cd ~/kindworks
+wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kw.desktop
 wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kw-startup
 wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kindworks.png
 wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/Your-Linux-system.pdf
 chmod 755 kw-startup
+mv kw.desktop /home/user/.config/autostart/
