@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update && apt upgrade -y 
-declare -a packages=("p7zip" "audacity" "firefox" "gimp" "handbrake" "inkscape" "krita" "libreoffice" "tux-paint" "vlc")
+#declare -a packages=("p7zip" "audacity" "firefox" "gimp" "handbrake" "inkscape" "krita" "libreoffice" "tux-paint" "vlc")
 for package in ${packages[@]}; do
     echo "******************" 
     echo $package
@@ -19,11 +19,7 @@ wget https://novabench.com/files/novabench-x64.deb  -O /tmp/novabench-x64.deb
 apt install /tmp/novabench-x64.deb -y
 
 #KindWorks Stuff
-mkdir ~/kindworks
-cd ~/kindworks
-wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kw.desktop
-wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kw-startup
-wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kindworks.png
-wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/Your-Linux-system.pdf
-chmod 755 kw-startup
-mv kw.desktop /home/user/.config/autostart/
+#wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/
+./kw-install.sh
+
+
