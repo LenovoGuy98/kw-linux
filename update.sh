@@ -12,6 +12,11 @@ echo "******************"
 echo zoom
 echo "******************"
 apt install --fix-broken /tmp/zoom_amd64.deb -y
-
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
+mkdir ~/kindworks
+cd ~/kindworks
+wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kw-startup
+wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/kindworks.png
+wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/Your-Linux-system.pdf
+chmod 755 kw-startup
