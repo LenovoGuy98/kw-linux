@@ -93,6 +93,9 @@ After the installation, you'll have a fully functional Debian system with the Ci
 
 This script will install a selection of useful applications, including Audacity, Firefox, LibreOffice, Zoom, and Google Chrome.
 
+Verify Audio and Video work!
+
+
 ## 7. Congratulations!
 
 You have successfully installed and configured your new dokindworks.org Debian system. Enjoy!
