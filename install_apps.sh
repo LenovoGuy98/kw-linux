@@ -20,8 +20,9 @@ tar xvf novabench-x64.tar.gz
 ./harden_debian_simple.sh
 
 #KindWorks Stuff
-wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/
-./kw-install.sh
+git clone  https://github.com/LenovoGuy98/KindWorks_Infomation.gitz
+cd KindWorks_Infomation
+./install.sh
 
 
 

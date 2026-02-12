@@ -244,7 +244,7 @@ net.ipv6.conf.default.autoconf = 0
 kernel.exec-shield = 1
 kernel.randomize_va_space = 2
 kernel.dmesg_restrict = 1
-kernel.unprivileged_userns_clone = 0
+kernel.unprivileged_userns_clone = 1
 
 # --- File System Hardening ---
 fs.suid_dumpable = 0
